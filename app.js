@@ -159,7 +159,7 @@ client.on("message", async message => {
   
   if(command === "방송시작") {
 
-    if(!message.member.roles.some(r=>["또라이", "멤버", "매니저", "ADMIN", "봇 개발자"].includes(r.name)) )
+    if(!message.member.roles.some(r=>["어드민", "건축오피", "부어드민" , "봇"].includes(r.name)) )
       return message.reply("죄송하지만 백청자여러분은 권한이 없습니다");
     
     message.delete().catch(O_o=>{});
@@ -213,7 +213,7 @@ message.channel.send("백호님의 방송이 시작되었습니다. 공지방에
   
   if(command === "킥") {
   
-    if(!message.member.roles.some(r=>["또라이", "멤버", "매니저", "ADMIN", "봇 개발자"].includes(r.name)) )
+    if(!message.member.roles.some(r=>["어드민", "건축오피", "부어드민" , "봇"].includes(r.name)) )
       return message.reply("죄송하지만 백청자여러분은 권한이 없습니다");
     
   
