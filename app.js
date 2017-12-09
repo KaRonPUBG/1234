@@ -10,17 +10,17 @@ const disagree = "❎";
 
 client.on("ready", () => {
   console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
-  client.user.setGame(`호랑이굴입니다!`);
+  client.user.setGame(`히라키서버에 오신걸 환영합니다!`);
 });
 
 client.on("guildCreate", guild => {
   console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
-  client.user.setGame(`호랑이굴입니다!`);
+  client.user.setGame(`히라키서버에 오신걸 환영합니다!`);
 });
 
 client.on("guildDelete", guild => {
   console.log(`I have been removed from: ${guild.name} (id: ${guild.id})`);
-  client.user.setGame(`호랑이굴입니다!`);
+  client.user.setGame(`히라키서버에 오신걸 환영합니다!`);
 });
 
         
@@ -187,7 +187,7 @@ message.channel.send("백호님의 방송이 시작되었습니다. 공지방에
       },
       title: "봇설명입니다",
       url: "https://discord.gg/h4GCDTa",
-      description: "이 봇은 현제 나이트 BOT에 의해 실행되고있습니다",
+      description: "이 봇은 현제 ST에 의해 실행되고있습니다",
       fields: [{
           name: "서버 관리봇",
           value: "현제 이 봇은 24시간 호스팅을 받는중입니다. (속도확인은 ~핑으로)"
@@ -204,7 +204,7 @@ message.channel.send("백호님의 방송이 시작되었습니다. 공지방에
       timestamp: new Date(),
       footer: {
         icon_url: client.user.avatarURL,
-        text: "©나이트 봇"
+        text: "©ST봇"
       }
     }
   })
