@@ -186,7 +186,7 @@ message.channel.send("백호님의 방송이 시작되었습니다. 공지방에
         icon_url: client.user.avatarURL
       },
       title: "봇설명입니다",
-      url: "https://discord.gg/h4GCDTa",
+      url: "https://discord.gg/qJRHX7b",
       description: "이 봇은 현제 ST에 의해 실행되고있습니다",
       fields: [{
           name: "서버 관리봇",
