@@ -185,7 +185,7 @@ client.on("message", async message => {
         },
         {
           name: "히라키 서버",
-          value: "이봇은 히라키서버를 위해 만들어 졌습니다[히라키서버 디스코드 바로가기](https://discord.gg/h4GCDTa)"
+          value: "이봇은 히라키서버를 위해 만들어 졌습니다[히라키서버 디스코드 바로가기](https://discord.gg/qJRHX7b)"
         },
         {
           name: "부탁",
