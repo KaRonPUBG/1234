@@ -275,5 +275,5 @@ client.on("message", async message => {
     message.channel.send ("모든 청소가 완료되었습니다!")
   }
   
-
+});
 client.login(process.env.BOT_TOKEN);
