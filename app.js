@@ -265,7 +265,7 @@ client.on("message", async message => {
   }
   
   
-  if(command === "으아아아아아") {
+  if(command === "으아아아") {
     message.channel.send ("https://www.youtube.com/watch?v=rvrZJ5C_Nwg")
     }
 
