@@ -266,6 +266,7 @@ client.on("message", async message => {
   
   
   if(command === "으아아아") {
+    message.delete().catch(O_o=>{});
     message.channel.send ("https://www.youtube.com/watch?v=rvrZJ5C_Nwg")
     }
 
