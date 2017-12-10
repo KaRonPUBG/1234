@@ -65,6 +65,10 @@ client.on("message", async message => {
     message.channel.send ("https://www.youtube.com/watch?v=LH5ay10RTGY")
     }   
  
+  if(command === "임비디") {
+    message.channel.send ("https://www.youtube.com/watch?v=Gy7FapKAyiY")
+    }
+  
   if(command === "도움말") {
         message.channel.send({embed: {
       color: 3447003,
