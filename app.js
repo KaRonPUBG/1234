@@ -93,7 +93,7 @@ client.on("message", async message => {
       timestamp: new Date(),
       footer: {
         icon_url: client.user.avatarURL,
-        text: "©나이트 봇"
+        text: "©ST봇"
       }
     }
   })
@@ -157,16 +157,7 @@ client.on("message", async message => {
   
   
   
-  if(command === "방송시작") {
-
-    if(!message.member.roles.some(r=>["어드민", "건축오피", "부어드민" , "봇"].includes(r.name)) )
-      return message.reply("죄송하지만 백청자여러분은 권한이 없습니다");
-    
-    message.delete().catch(O_o=>{});
-message.channel.send("백호님의 방송이 시작되었습니다. 공지방에 유튜브링크가있으니 확인해주시길바랍니다.(찡긋)", { tts: true });
-    message.delete().catch(O_o=>{});
-    message.channel.send("https://www.youtube.com/user/yhjh1260")
-  }
+ 
   
   if(command === "말") {
 
@@ -190,11 +181,11 @@ message.channel.send("백호님의 방송이 시작되었습니다. 공지방에
       description: "이 봇은 현제 ST에 의해 실행되고있습니다",
       fields: [{
           name: "서버 관리봇",
-          value: "현제 이 봇은 24시간 호스팅을 받는중입니다. (속도확인은 ~핑으로)"
+          value: "현제 이 봇은 24시간 호스팅을 받는중입니다. (속도확인은 :핑으로)"
         },
         {
-          name: "백호 유튜브",
-          value: "이봇은 백호유튜브를 위해 만들어 졌습니다[백호유튜브 바로가기](https://www.youtube.com/user/yhjh1260)"
+          name: "히라키 서버",
+          value: "이봇은 히라키서버를 위해 만들어 졌습니다[히라키서버 디스코드 바로가기](https://discord.gg/h4GCDTa)"
         },
         {
           name: "부탁",
