@@ -263,6 +263,11 @@ client.on("message", async message => {
       .catch(error => message.reply(`삭제불가 이유 : ${error}`));
     message.channel.send ("모든 청소가 완료되었습니다!")
   }
+  
+  
+  if(command === "으아아아아아") {
+    message.channel.send ("https://www.youtube.com/watch?v=rvrZJ5C_Nwg")
+    }
 
   });
 
