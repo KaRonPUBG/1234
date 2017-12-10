@@ -261,7 +261,7 @@ client.on("message", async message => {
     const fetched = await message.channel.fetchMessages({count: deleteCount});
     message.channel.bulkDelete(fetched)
       .catch(error => message.reply(`삭제불가 이유 : ${error}`));
-    message.channel.send ("모든 청소가 완료되었습니다")
+    message.channel.send ("모든 청소가 완료되었습니다!")
   }
 
   });
