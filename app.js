@@ -51,9 +51,20 @@ client.on("message", async message => {
   
   
   if(command === "겁먹지마") {
+    message.delete().catch(O_o=>{});
     message.channel.send ("https://youtu.be/xer0eKW3cB8")
     }
-  
+   
+  if(command === "으아아아") {
+    message.delete().catch(O_o=>{});
+    message.channel.send ("https://www.youtube.com/watch?v=rvrZJ5C_Nwg")
+    }
+ 
+ if(command === "바나나") {
+    message.delete().catch(O_o=>{});
+    message.channel.send ("https://www.youtube.com/watch?v=LH5ay10RTGY")
+    }   
+ 
   if(command === "도움말") {
         message.channel.send({embed: {
       color: 3447003,
@@ -264,12 +275,5 @@ client.on("message", async message => {
     message.channel.send ("모든 청소가 완료되었습니다!")
   }
   
-  
-  if(command === "으아아아") {
-    message.delete().catch(O_o=>{});
-    message.channel.send ("https://www.youtube.com/watch?v=rvrZJ5C_Nwg")
-    }
-
-  });
 
 client.login(process.env.BOT_TOKEN);
