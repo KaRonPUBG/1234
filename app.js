@@ -118,7 +118,9 @@ client.on("message", async message => {
      
    }
   
-  
+  if(command === "1") {
+   message.channel.sendMessage("1")
+    }
   
   
   if(command === "방송시작") {
